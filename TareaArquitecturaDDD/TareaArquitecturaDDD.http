@@ -1,0 +1,6 @@
+@TareaArquitecturaDDD_HostAddress = http://localhost:5033
+
+GET {{TareaArquitecturaDDD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

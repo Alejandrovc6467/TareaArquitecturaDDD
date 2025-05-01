@@ -1,0 +1,15 @@
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\bin\Debug\net8.0\Aplicacion.deps.json
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\bin\Debug\net8.0\Aplicacion.dll
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\bin\Debug\net8.0\Aplicacion.pdb
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\bin\Debug\net8.0\Dominio.dll
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\bin\Debug\net8.0\Dominio.pdb
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\Aplicacion.csproj.AssemblyReference.cache
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\Aplicacion.AssemblyInfo.cs
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\Aplicacion.csproj.Up2Date
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\Aplicacion.dll
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\refint\Aplicacion.dll
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\Aplicacion.pdb
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\Aplicacion\obj\Debug\net8.0\ref\Aplicacion.dll
