@@ -24,7 +24,7 @@ builder.Services.AddCors(options =>
 
 
 // Obtener la cadena de conexión del archivo appsettings.json
-var connectionString = builder.Configuration.GetConnectionString("mi_computador");
+var connectionString = builder.Configuration.GetConnectionString("mi_cuenta_somee");
 // Configurar Entity Framework Core con SQL Server
 builder.Services.AddDbContext<ContextoDB>(options => options.UseSqlServer(connectionString));
 

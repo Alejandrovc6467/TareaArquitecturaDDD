@@ -90,3 +90,4 @@ C:\Users\aleja\source\repos\TareaArquitecturaDDD\TareaArquitecturaDDD\obj\Debug\
 C:\Users\aleja\source\repos\TareaArquitecturaDDD\TareaArquitecturaDDD\obj\Debug\net8.0\API.pdb
 C:\Users\aleja\source\repos\TareaArquitecturaDDD\TareaArquitecturaDDD\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\aleja\source\repos\TareaArquitecturaDDD\TareaArquitecturaDDD\obj\Debug\net8.0\ref\API.dll
+C:\Users\aleja\source\repos\TareaArquitecturaDDD\TareaArquitecturaDDD\obj\Debug\net8.0\API.sourcelink.json
