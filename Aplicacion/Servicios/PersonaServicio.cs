@@ -15,9 +15,12 @@ namespace Aplicacion.Servicios
 
         private readonly IPersonaRepositorio _personaRepositorio;
 
-        public PersonaServicio(IPersonaRepositorio personaRepositorio)
+        private readonly IUnitOfWork _unitOfWork;
+
+        public PersonaServicio(IPersonaRepositorio personaRepositorio, IUnitOfWork unitOfWork)
         {
             this._personaRepositorio = personaRepositorio;
+            _unitOfWork = unitOfWork;
         }
 
 
@@ -101,6 +104,7 @@ namespace Aplicacion.Servicios
             try
             {
                 await _personaRepositorio.Eliminar(id);
+                await this._unitOfWork.SaveChangesAsync();
             }
             catch (Exception ex)
             {
@@ -125,6 +129,7 @@ namespace Aplicacion.Servicios
                 };
 
                 await _personaRepositorio.Crear(nuevaPersona);
+                await this._unitOfWork.SaveChangesAsync();
             }
             catch (Exception ex)
             {
@@ -149,6 +154,7 @@ namespace Aplicacion.Servicios
                 };
 
                 await _personaRepositorio.Actualizar(personaEntity);
+                await this._unitOfWork.SaveChangesAsync();
             }
             catch (Exception ex)
             {

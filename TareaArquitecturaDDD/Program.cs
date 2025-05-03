@@ -32,6 +32,7 @@ builder.Services.AddDbContext<ContextoDB>(options => options.UseSqlServer(connec
 // Add services to the container.
 builder.Services.AddScoped<IPersonaRepositorio, PersonaRepositorio>();
 builder.Services.AddScoped<IPersonaServicio, PersonaServicio>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
 builder.Services.AddControllers();

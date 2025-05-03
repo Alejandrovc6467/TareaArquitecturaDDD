@@ -94,7 +94,7 @@ namespace Infraestructura.Repositorios
 
                 persona.Eliminado = true;
 
-                await _contextoDB.SaveChangesAsync();
+                //await _contextoDB.SaveChangesAsync();
             }
             catch (Exception ex)
             {
@@ -116,7 +116,7 @@ namespace Infraestructura.Repositorios
             try
             {
                 await _contextoDB.Personas.AddAsync(persona);
-                await _contextoDB.SaveChangesAsync();
+                //await _contextoDB.SaveChangesAsync();
 
             }
             catch (Exception ex)
@@ -151,7 +151,7 @@ namespace Infraestructura.Repositorios
                 personaExistente.Genero = persona.Genero;
                 personaExistente.Telefono = persona.Telefono;
 
-                await _contextoDB.SaveChangesAsync();
+                //await _contextoDB.SaveChangesAsync();
             }
             catch (Exception ex)
             {
